@@ -112,7 +112,7 @@ function showTask(){
     }
 
     var deleteIcon=document.getElementsByClassName("fa-solid fa-square-xmark fa-2xl");
-    for(var j=0;i<deleteIcon.length;j++){
+    for(var j=0;j<deleteIcon.length;j++){
         deleteIcon[j].addEventListener('click',deletes);
     }
 
