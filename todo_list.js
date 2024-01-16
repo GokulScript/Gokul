@@ -116,13 +116,6 @@ function showTask(){
         deleteIcon[j].addEventListener('click',deletes);
     }
 
-    
-
-
-    
-
-
-
 }
 
 
