@@ -1,125 +1,132 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 
 }
 
 body {
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(120deg, rgb(101, 45, 139),rgba(237, 31, 120, 0.795));
+    background-color: #e6e6fa;
+
 }
 
 .container {
-   max-width: 800px;
-   margin: auto;
-    border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0.616);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.top h1 {
-   
-    color: rgba(237, 31, 120, 0.678);
-    color: rgb(101, 45, 139);
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-}
-
-.input {
-    display: flex;
-    width: 100%;
-    /*background-color: aqua;*/
-    justify-content: center;
-}
-
-.input input {
-    width: 70%;
-    padding: 20px 8px 20px 30px;
-    background: rgba(255, 255, 255, 0.616);
-  
-}
-
-
-.input input,
-button {
-    outline: none;
-    border: none;
-    font-size: 25px;
-    margin-top: 40px;
+    width: 600px;
+    margin:auto ;
+    margin-top: 20px;
+    background: #ffffff;
     border-radius: 10px;
-    margin-bottom: 40px;
+    padding: 10px 20px;
+ 
 }
 
-.input button {
-    padding: 20px 20px 20px 20px;
-    background: rgba(255, 255, 255, 0.616);
-    background: rgba(237, 31, 120, 0.678);
-}
-
-ul {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-ul li {
-    padding: 12px 8px 12px 60px;
+.container p {
     font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    position: relative;
-    /* border: 1px solid white;*/
-    background: rgba(255, 255, 255, 0.445);
+    font-weight: 600;
+    display: flex;
 
-    border-radius: 10px;
+    justify-content: center;
 
 }
-li {
-    list-style: none;
-    width: 80%;
+
+.input-field {
+    display: flex;
+    width: 100%;
+}
+
+.input-field input {
+    width: 90%;
+    height: 40px;
+    padding-left: 10px;
+    margin: 20px 0 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 2px solid #C0C0F2;
+    outline: 0;
+    border-radius: 5px;
+}
+
+.input-field button {
+    width: 20%;
+    height: 40px;
+    margin: 20px 0 10px;
+    font-size: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    color:#0e1318;
+    background: #C0C0F2;
+    margin-left: 5px;
+}
+.textcontainer {
+    
+    height: 40px;
+
    
 }
-
-li::before {
-    content: "";
-    position: absolute;
-    background-image: url(images/unchecked.jpg);
-    width: 40px;
-    height: 40px;
-    background-size: cover;
-    background-position: center;
-    top: 12px;
-    left: 8px;
+ul div {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    column-gap: 5px;
+    
 }
-
-li img{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    top: 12px;
-    right: 5px;
-}
-
-.checked{
-     text-decoration: line-through;
-    text-decoration-color:red ;
+span.hello{
     color: black;
+    background-color: #C0C0F2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    min-height: 40px;
+    height: auto;
+    font-weight: 600;
+
+    
+    width: 90%;
+    max-width: 100%;
+    min-width: 80%;
+    white-space: pre-line ;
+    overflow-wrap: break-word;
 
 }
-.checked::before{
-    background-image: url(images/checked.jpg);
+.TaskContainer .fa-square-check + span.hello{
+    background-color: rgba(140, 207, 140, 0.397);
+    color: rgb(50, 114, 50);
+    text-decoration: line-through;
+    
+
 }
 
 
+
+
+i{
+    margin-top: 20px;
+}
+.TaskContainer{
+    display: flex;
+}
+
+
+
+/*
+
+
+@media screen and (min-width:380px) and (max-width:450px){
+    .container {
+        width: 420px;
+        margin:auto ;
+        margin-top: 20px;
+        background: #ffffff;
+        border-radius: 10px;
+        padding: 10px 20px;
+     
+    
+}
+}
+*/
