@@ -46,9 +46,11 @@ body {
 .contact-right img {
     width: 700px;
     position: absolute;
-    top: 60vh;
+    top: 30vh;
     right: 20px;
     z-index: -1;
+    border-radius: 50px;
+    
 
 
 }
